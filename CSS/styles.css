@@ -1,0 +1,13 @@
+/* Base */
+@import url("global.css");
+@import url("layout.css");
+
+/* Componentes */
+@import url("butons.css");
+@import url("card.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("hero.css");
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Syne+Mono&display=swap');
