@@ -10,9 +10,11 @@ header {
 
     width: 100%;
     max-height: 120px;
+
+    margin-bottom: 40px;
 }
 
-.icon_container {
+.icon_container { /* Icons */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,4 +44,134 @@ header {
     justify-content: center;
 
     gap: 8px;
+}
+
+
+
+/*
+    =========================
+        Tags Configuration
+    =========================
+*/
+
+.tag-type p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10px;
+    line-height: 2px;
+    letter-spacing: 4%;
+    font-weight: 500;
+
+    color: var(--text-color-primary);
+    background-color: var(--brand-color-dark);
+
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+
+    padding: 6px 6px 6px 6px;
+}
+
+.tag-type {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+    =========================
+           Main Content
+    =========================
+*/
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+
+/*
+    =========================
+           Hero Panel
+    =========================
+*/
+
+.hero-panel {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.h-main_cardbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 608px;
+    height: 416px;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+
+    background-color: rgb(117, 117, 117);
+}
+
+.h-news_contbox {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 592px;
+    height: 416px;
+
+    gap: 16px;
+
+}
+
+.h-news_cardbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 288px;
+    height: 200px;
+
+    border-radius: 4px;
+    border-style: solid;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+
+    background-color: rgb(117, 117, 117);
+}
+
+.h-news_cardbox::before, .h-main_cardbox::before {
+    content: "";
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-main_cardbox .h-box_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 24px 24px 24px;
+    gap: 8px;
+}
+
+
+.h-news_cardbox .h-box_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 12px 12px;
+    gap: 8px;
+
+    max-height: 86.8px;
 }
