@@ -25,7 +25,7 @@ header .bottom {
 }
 
 .icon1::before {
-    background-image: url("../Assets/Icons/fold_icon.png");
+    background-image: url("../assets/Icons/fold_icon.png");
 }
 
 .icon2::before {
