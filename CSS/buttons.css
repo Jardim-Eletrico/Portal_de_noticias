@@ -1,0 +1,24 @@
+.buttons {
+    color:var(--text-color-secundary);
+
+}
+
+
+
+.buttons:hover {
+    color:var(--brand-color-light);
+}
+
+
+
+
+
+
+.header.bottom span{
+    color: var(--text-color-secundary);
+}
+
+
+.header.bottom span:hover {
+  color: var(--brand-color-light);
+}
