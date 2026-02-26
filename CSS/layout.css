@@ -144,7 +144,7 @@ header {
     
 }
 
-.card1 {
+.hcard1 {
     grid-area: 1 / 1 / span 2 / span 2;
 }
 
@@ -178,4 +178,23 @@ header {
 
 .h-box_text h1, h3 {
     margin-top: 8px;
+}
+
+.mais_lidos{
+    display: flex;
+    max-width: 1216px;
+    max-height: 314px;
+
+
+}
+
+.news_card1{
+    width: 100%;
+
+
+    width: 292px;
+    height: 160px;
+
+    background-image: url(/Assets/Images/Image06.png)
+
 }
