@@ -1,15 +1,15 @@
-.card1::before {
+.hcard1::before {
     background-image: url("../Assets/Images/Image1.png"); /* Colocar caminho das imagens */
 }
-.card2::before {
+.hcard2::before {
     background-image: url("../Assets/Images/Image2.png"); 
 }
-.card3::before {
+.hcard3::before {
     background-image: url("../Assets/Images/Image3.png"); 
 }
-.card4::before {
+.hcard4::before {
     background-image: url("../Assets/Images/Image4.png"); 
 }
-.card5::before {
+.hcard5::before {
     background-image: url("../Assets/Images/Image5.png"); 
 }

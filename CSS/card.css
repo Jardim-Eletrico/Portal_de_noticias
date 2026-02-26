@@ -1,0 +1,25 @@
+.news_card1{
+    background-image: url("/Assets/Images/Image06.png");
+    
+}
+
+.news_card2{
+    background-image: url("/Assets/Images/Image07.png");
+    
+}
+
+.news_card3{
+    background-image: url("/Assets/Images/Image08.png");
+    
+}
+
+.news_card4{
+    background-image: url("/Assets/Images/Image09.png");
+    
+}
+
+.news_card1, .news_card2, .news_card3, .news_card4 {
+    background-image: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

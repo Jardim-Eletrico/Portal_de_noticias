@@ -144,7 +144,7 @@ header {
     
 }
 
-.card1 {
+.hcard1 {
     grid-area: 1 / 1 / span 2 / span 2;
 }
 
@@ -152,6 +152,7 @@ header {
 .hnews-c1 .h-box_text {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Número de linhas */
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 
     overflow-wrap: anywhere;
@@ -164,6 +165,7 @@ header {
 .hnews-c2 .h-box_text {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Número de linhas */
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 
     overflow: hidden;
@@ -178,4 +180,63 @@ header {
 
 .h-box_text h1, h3 {
     margin-top: 8px;
+}
+
+
+
+/*
+    =========================
+           Mais lidos
+    =========================
+*/
+
+.mais_lidos{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1216px;
+    max-height: 314px;
+
+
+}
+
+
+.news_card1, .news_card2, .news_card3, .news_card4{
+    position: relative;
+
+    width: 292px;
+    height: 160px;    
+}
+
+.n_box-text{
+    margin: 8px 0px 0px 8px ;
+}
+
+.news_titulo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+
+}
+
+.n_cards-config{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    max-width: 292px;
+
+}
+
+.n_cards-config .h-box_text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Número de linhas */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+    overflow-wrap: anywhere;
+
 }
