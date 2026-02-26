@@ -152,6 +152,7 @@ header {
 .hnews-c1 .h-box_text {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Número de linhas */
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 
     overflow-wrap: anywhere;
@@ -164,6 +165,7 @@ header {
 .hnews-c2 .h-box_text {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Número de linhas */
+    line-clamp: 3;
     -webkit-box-orient: vertical;
 
     overflow: hidden;
@@ -180,21 +182,63 @@ header {
     margin-top: 8px;
 }
 
+
+
+/*
+    =========================
+           Mais lidos
+    =========================
+*/
+
 .mais_lidos{
     display: flex;
+    justify-content: space-between;
+    gap: 16px;
     max-width: 1216px;
     max-height: 314px;
 
 
 }
 
-.news_card1{
-    width: 100%;
 
+.news_card1{
+    position: relative;
+
+    width: 292px;
+    height: 160px;    
+}
+
+.news_card2{
+    position: relative;
 
     width: 292px;
     height: 160px;
+}
 
-    background-image: url(/Assets/Images/Image06.png)
+.news_card3{
+    position: relative;
+
+    width: 292px;
+    height: 160px;
+}
+
+.news_card4{
+    position: relative;
+
+    width: 292px;
+    height: 160px;
+}
+
+.n_box-text{
+    margin: 8px 0px 0px 8px ;
+}
+
+.news_titulo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
 
 }
+
