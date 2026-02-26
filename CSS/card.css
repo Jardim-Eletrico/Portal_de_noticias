@@ -22,6 +22,12 @@
     
 }
 
+.news_card1, .news_card2, .news_card3, .news_card4 {
+    background-image: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 
 
