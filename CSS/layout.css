@@ -99,8 +99,11 @@ header .bottom {
 
 .main_content {
     display: flex;
+    
     flex-direction: column;
+
     align-items: center;
+
 
     gap: 80px;
 }
@@ -214,7 +217,6 @@ header .bottom {
 
 .category_section {
     border-top: 1px solid;
-    border-bottom: 1px solid;
     border-color: var(--stroke-color);
 }
 
@@ -268,4 +270,59 @@ header .bottom {
     overflow: hidden;
     overflow-wrap: anywhere;
 
+}
+
+
+
+/*
+    =========================
+      Categoria de Destaques
+    =========================
+*/
+
+.hl-category { /*Highlights category*/
+    display: inline-grid;
+    grid-template-columns: 696px 488px;
+    grid-template-rows: 856px;
+
+    column-gap: 32px;
+}
+
+.hl-space1_config {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.hl-space2_config {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.hl-card1 {
+    display: flex;
+
+    max-width: 696px;
+    height: 176px;
+
+    gap: 16px;
+    background-color: red;
+}
+
+.advertisment-card {
+    max-width: 488px;
+    height: 280px;
+    
+    background-color: greenyellow;
+}
+
+.hl-card2 {
+    display: flex;
+
+    max-width: 488px;
+    height: 72px;
+
+    gap: 15px;
+    background-color: blue;
 }
