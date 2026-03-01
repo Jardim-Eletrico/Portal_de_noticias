@@ -212,6 +212,12 @@ header .bottom {
     margin-top: 12px;
 }
 
+.category_section {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--stroke-color);
+}
+
 
 
 /*
@@ -219,12 +225,6 @@ header .bottom {
            Mais lidos
     =========================
 */
-
-.ml_section {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: var(--stroke-color);
-}
 
 .ml_cards{ /*Abreviação de "Mais lidos cards*/
     display: flex;
