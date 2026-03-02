@@ -3,22 +3,28 @@
 
 }
 
-
-
 .buttons:hover {
     color:var(--brand-color-light);
 }
 
 
 
-
-
-
-.header.bottom span{
-    color: var(--text-color-secundary);
-}
-
-
 .header.bottom span:hover {
   color: var(--brand-color-light);
+  cursor:pointer;
+}
+
+.icon-content_box:hover span,
+.icon-content_box:hover svg {
+    fill: var(--brand-color-light);
+    color: var(--brand-color-light);
+    cursor: pointer;
+}
+
+.icon-content_box {
+    cursor: pointer;
+}
+
+.closebutton svg {
+    fill: var(--brand-color-light);
 }

@@ -41,7 +41,7 @@ h1 {
 h2 {
     font-size: 16px;
     line-height: 140%;
-    font-weight: ExtraBold;
+    font-weight: 800;
 
     color: var(--text-color-primary);
 }
@@ -57,7 +57,7 @@ h3 {
 span {
     font-size: 14px;
     line-height: 145%;
-    font-weight: SemiBold;
+    font-weight: 600;
 
     color: var(--text-color-secundary);
 }
@@ -65,7 +65,7 @@ span {
 p {
     font-size: 14px;
     line-height: 160%;
-    font-weight: regular;
+    font-weight: 500;
 
     color: var(--text-color-secundary);
 }
