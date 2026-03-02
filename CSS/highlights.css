@@ -69,3 +69,19 @@
 .hl2-cardimg5 {
     background-image: url("/Assets/Images/Image18.png");
 }
+
+
+
+/*
+    ==========================
+        Hover Configuration
+    ==========================
+*/
+
+.hl-card1:hover, .hl-card2:hover {
+    cursor: pointer;;
+}
+
+.advertisment-card:hover {
+    cursor: pointer;
+}
