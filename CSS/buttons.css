@@ -24,3 +24,7 @@
 .icon-content_box {
     cursor: pointer;
 }
+
+.closebutton svg {
+    fill: var(--brand-color-light);
+}
