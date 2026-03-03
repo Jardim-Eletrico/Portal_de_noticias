@@ -14,20 +14,20 @@
 }
 
 .hl1-cardimg1 {
-    background-image: url("/Assets/Images/Image10.png");
+    background-image: url("../Assets/Images/Image10.png");
 }
 
 .hl1-cardimg2 {
-    background-image: url("/Assets/Images/Image11.png");
+    background-image: url("../Assets/Images/Image11.png");
 
 }
 
 .hl1-cardimg3 {
-    background-image: url("/Assets/Images/Image12.png");
+    background-image: url("../Assets/Images/Image12.png");
 }
 
 .hl1-cardimg4 {
-    background-image: url("/Assets/Images/Image13.png");
+    background-image: url("../Assets/Images/Image13.png");
 }
 
 
@@ -40,7 +40,7 @@
 */
 
 .advertisment-card {
-    background-image: url("/Assets/Images/advertisment.png");
+    background-image: url("../Assets/Images/advertisment.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,19 +55,19 @@
 }
 
 .hl2-cardimg1 {
-    background-image: url("/Assets/Images/Image14.png");
+    background-image: url("../Assets/Images/Image14.png");
 }
 .hl2-cardimg2 {
-    background-image: url("/Assets/Images/Image15.png");
+    background-image: url("../Assets/Images/Image15.png");
 }
 .hl2-cardimg3 {
-    background-image: url("/Assets/Images/Image16.png");
+    background-image: url("../Assets/Images/Image16.png");
 }
 .hl2-cardimg4 {
-    background-image: url("/Assets/Images/Image17.png");
+    background-image: url("../Assets/Images/Image17.png");
 }
 .hl2-cardimg5 {
-    background-image: url("/Assets/Images/Image18.png");
+    background-image: url("../Assets/Images/Image18.png");
 }
 
 

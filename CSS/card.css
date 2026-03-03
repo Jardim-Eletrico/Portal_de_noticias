@@ -1,20 +1,20 @@
 .news_card1{
-    background-image: url("/Assets/Images/Image06.png");
+    background-image: url("../Assets/Images/Image06.png");
     
 }
 
 .news_card2{
-    background-image: url("/Assets/Images/Image07.png");
+    background-image: url("../Assets/Images/Image07.png");
     
 }
 
 .news_card3{
-    background-image: url("/Assets/Images/Image08.png");
+    background-image: url("../Assets/Images/Image08.png");
     
 }
 
 .news_card4{
-    background-image: url("/Assets/Images/Image09.png");
+    background-image: url("../Assets/Images/Image09.png");
     
 }
 
